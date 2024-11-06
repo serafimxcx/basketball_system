@@ -1,0 +1,558 @@
+#login-container{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: whitesmoke;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logindiv{
+    width: 40%;
+    height: auto;
+    background-color: white;
+    overflow: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 30px;
+    border: 2px solid #000361;
+}
+
+#logindiv2{
+    width: 100%;
+    padding: 30px;
+}
+
+.loginbtn{
+    width: 100%;
+    border: none;
+    padding: 10px 16px;
+    color: white;
+    background-color: #000361;
+}
+
+.login_icon{
+    font-size: 30px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+
+
+
+
+#container{
+    width: 95%;
+    margin: 0 auto;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+
+.profile_tip{
+    float: right;
+    cursor: pointer;
+}
+
+.txt_name{
+    margin: 10px;
+}
+
+
+.btn_coach{
+    margin-top: 10px;
+    margin-left: 5px;
+    float: right;
+}
+
+.module_title{
+    font-weight: bold;
+}
+
+.container_results{
+    border: 1px solid rgb(209, 209, 209);
+    margin: 0 auto;
+    height: 600px;
+    border-radius: 5px;
+    padding: 30px;
+    overflow: auto;
+    
+}
+
+.table_files tr th{
+    background-color: #000361;
+    color: white;
+}
+
+.table_files tr td{
+    text-align: center;
+}
+
+.remove_item {
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px
+}
+
+.img_coach{
+    width: 50px;
+    height: 50px;
+    border: 1px solid rgb(209, 209, 209);
+    border-radius: 50%;
+    object-fit: cover;
+    vertical-align: middle;
+}
+
+.img_team{
+    width: auto;
+    height: 50px;
+    object-fit: cover;
+    vertical-align: middle;
+    background-color: rgba(255, 255, 255, 0.871);
+}
+
+ .img_player{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    vertical-align: middle;
+    border-radius: 50%;
+}
+
+.img_player_stat{
+    width: 60px;
+    height: 60px;
+    border: 1px solid rgb(209, 209, 209);
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.img_team_stat{
+    width: auto;
+    height: 100px;
+    text-align: center;
+    margin: auto;
+    margin-right: 20px;
+}
+
+#sort_player{
+    width: 300px;
+}
+
+.stats_result{
+    border: 1px solid rgb(209, 209, 209);
+    margin: 0 auto;
+    height: auto;
+    border-radius: 10px;
+    overflow: auto;
+    text-align: center;
+    
+}
+
+.stats_title{
+    text-align: center;
+    width: 100%;
+    top: 0;
+    padding: 10px;
+    background-color: #000361;
+    color: white;
+    font-weight: bold;
+    position: sticky;
+}
+
+#stats_result{
+    padding: 30px;
+}
+
+.txt_stats{
+    width: 60px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.td_stats{
+    text-align: center;
+}
+
+
+.modal{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(128, 128, 128, 0.5);
+    z-index: 90;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+#team_container{
+    width: 90%;
+    height: 90%;
+    margin: 0 auto;
+    background-color: white;
+    padding: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    overflow: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 2px;
+}
+
+.searchplayer_container{  
+    position: relative;
+    vertical-align: middle;
+    z-index: 11;
+    margin: 10px;
+    width: 100%;
+    height: auto;
+    margin-top: -20px;
+    
+    
+}
+
+#searchplayer_div{  
+    background-color: white;
+    position: absolute;
+    white-space: normal;
+    width: 100%;
+    border-radius: 10px;
+
+    
+}
+
+.player_result{
+    padding: 10px; 
+    z-index: 11;
+}
+
+.player_result:hover{
+    background-color: rgb(173, 173, 173);
+    cursor: pointer;
+}
+
+#transaction_container{
+    display: none;
+}
+
+.stats_records{
+    cursor: pointer;
+    text-align: left;
+}
+
+.stats_records:hover{
+    background-color: rgba(0, 0, 0, 0.075);
+}
+
+.statstotalscore_div{
+    width: 100%;
+    text-align: center;
+}
+
+.statstotalscore_div table tr th{
+    text-align: center;
+    font-weight: 100;
+}
+
+.statstotalscore_div table tr td{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.table_standing tr th{
+    background-color: #000361;
+    color: white;
+}
+
+.table_playerstats tr th{
+    background-color: #000361;
+    color: white;
+}
+
+.table_playerstats tr td{
+    text-align: left;
+}
+
+
+
+.sort_rank:hover{
+    background-color: #0F6DB4;
+    cursor: pointer;
+    color: white;
+}
+
+.sort_team:hover{
+    background-color: #0F6DB4;
+    cursor: pointer;
+    color: white;
+}
+
+
+.sort_name:hover{
+    background-color: #0F6DB4;
+    cursor: pointer;
+    color: white;
+}
+
+.img_team_standing{
+    margin-right: 20px;
+}
+
+.table_team_title{
+    margin-left: 30px;
+    text-align: left;
+}
+
+.playerstats_result{
+    margin: 30px;
+}
+
+.img_player_allstats{
+    margin-right: 20px;
+}
+
+.txt_pass{
+    margin: 5px;
+    margin-left: 20px;
+}
+
+#teamstanding_result, #allplayerstats_result, #teamstats_result{
+    width: 100%;
+    overflow: auto;
+}
+
+.btnprint_col{
+    text-align: right;
+}
+
+
+.dashboard_row{
+    padding: 30px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.dashboard_col{
+    padding: 20px;
+}
+
+.txt{
+    font-size: 25px;
+    font-weight: bold;
+    color: #2a2a2a;
+    padding-left: 20px;
+    position: relative;
+
+}
+
+.statstxt{
+    font-size: 25px;
+    font-weight: bold;
+    color: #2a2a2a;
+}
+
+
+
+.num_useradmin{
+    font-size: 40px;
+    font-weight: 800;
+    color: #000361;
+    width: auto;
+    text-align: right;
+    white-space: normal;
+    position: relative;
+    padding-right: 20px;
+    text-shadow: 2px 2px #eaeaead8;
+    
+}
+
+.no_user_admin_div{
+    overflow: auto;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 5px;
+    padding: 10px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position-x: -20px;
+    background-position-y:  20px;
+    cursor: pointer;
+}
+
+.no_user_admin_div::before{
+   
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(255, 255, 255, 0.871);
+    
+}
+
+#admin_div{
+    background-image: url("/basketball_system/btn_icons/user_icon.png");
+    background-size: 100px;
+    position: relative;
+    background-position-x: -25px;
+    background-position-y:  -3px;
+}
+
+
+.admin_col{
+    overflow: auto;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 5px;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: 110px;
+    background-position-x: -20px;
+    background-position-y:  15px;
+    cursor: pointer;
+}
+
+
+.admin_col::before{
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(255, 255, 255, 0.871);
+}
+
+.admin_txt{
+    line-height: 1.6;
+    position: relative;
+    color: #2a2a2a;
+    font-weight: bold;
+}
+
+.num_contents{
+    font-size: 50px;
+    color: #000361;
+    font-weight: bold;
+    vertical-align: bottom;
+    padding-left: 10px;
+    position: relative;
+    text-shadow: 2px 2px #eaeaead8;
+    
+}
+
+
+#teams_div{
+    background-image: url("/basketball_system/btn_icons/teams_icon.png");
+    position: relative;
+}
+
+#coach_div{
+    background-image: url("/basketball_system/btn_icons/coach_icon.png");
+    position: relative;
+}
+
+#players_div{
+    background-image: url("/basketball_system/btn_icons/player_icon.png");
+    position: relative;
+}
+
+#venue_div{
+    background-image: url("/basketball_system/btn_icons/venue_icon.png");
+    position: relative;
+}
+
+.stats_div{
+    height: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 30px;
+    margin: 5px;
+    background-color: rgba(255, 255, 255, 0.871);
+    overflow: auto;
+}
+
+.wintxt{
+    font-weight: bold;
+    color: green;
+}
+
+.losetxt{
+    font-weight: bold;
+    color: red;
+}
+
+.img_teamrankone{
+    width: auto;
+    height: 150px;
+    text-align: center;
+    margin: auto;
+    margin-right: 20px;
+}
+
+
+.img_playerrankone{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    text-align: center;
+    margin: auto;
+    margin-right: 20px;
+    background-color: rgba(255, 255, 255, 0.871);
+}
+
+.team_tbl_img tr td{
+    text-align: center;
+}
+
+#playerstats_div, #teamstanding_div{
+    cursor: pointer;
+}
+
+
+@media (max-width: 750px){
+    
+    .btnprint_col{
+        text-align: left;
+    }
+    .records_col{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .btn_coach{
+      float: left;
+      margin-top: 30px;
+    }
+
+    #right_col{
+        margin-top: 30px;
+    }
+
+    #searchplayer_container{  
+        width: 200px;
+    
+        
+    }
+
+    #logindiv{
+        width: 90%;
+    }
+    
+
+
+}
+
